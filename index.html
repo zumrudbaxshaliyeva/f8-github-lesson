@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Form Validation</title>
+</head>
+<body>
+    
+    <form action="/" id="form" >
+        <h1>Registration</h1>
+        <div class="input-control">
+            <label for="">Name</label>
+            <input id="username" type="text" placeholder="Adinizi daxil edin" >
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="">email</label>
+            <input id="email" type="email" placeholder="mailinizi daxil edin">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="">Password</label>
+            <input id="password" type="password" placeholder="sifrenizi daxil edin">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="">Password again</label>
+            <input id="password2" type="password" placeholder="sifrenizi daxil edin">
+            <div class="error"></div>
+        </div>
+        <button type="submit">Send</button>
+    </form>
+    <script defer src="./script.js"></script>
+</body>
+</html>
