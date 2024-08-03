@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    margin-left: 200px;
+}
+.input-control{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input-control input:focus{
+    outline: 0;
+}
+.input-control.success input{
+   border-color: #09c372;
+}
+.input-control.error input{
+    border-color: #ff3860;
+}
+.input-control .error{
+    font-size: 9px;
+    color: #ff3860;
+    height: 13px;
+}
+
+
+
